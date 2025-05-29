@@ -1,0 +1,101 @@
+ {
+ "ai": [
+        "tensorflow", "keras", "tensorboard", "torch", "torchgen", "torchvision",
+        "deepspeed", "functorch", "pytorch_lightning", "torchmetrics", "timm",
+        "transformers", "accelerate", "tokenizers", "apex", 
+         "wandb", "wandb_gql", "wandb_watchdog", "wandb_promise",
+        "wandb_graphql", "safetensors","onnxruntime","onnx","sklearn","lightning_fabric","lightning_utilities",
+        "lightning","crystallm","huggingface_hub", 
+        
+        "pyannote","datasets","smirk","amp_C","lightnings","ml_dtypes"
+    ],
+    "io": [
+      "json","gzip","zip","bz2","tarfile","zipfile","pickle","brotli",
+        "pandas", "cloudpickle", "dill", "h5py",
+        "xgboost", "pickletools", "msgpack", "zarr", "numcodecs", 
+        "fsspec","multidict"
+    ],
+    "ds": [
+        "scipy", "sympy", "mpmath",  
+         "networkx", "dataset", "matplotlib",
+         "uncertainties", "statistics", "cycler", "more_itertools",
+        "rdkit", "scikits",
+
+        "sqlalchemy","pyarrow", "pyarrow_hotfix"
+    ],
+    
+    "performance": [
+        "cupy", "cupy_backends", "cupyx", "triton", "ninja", "fastrlock",
+        "setproctitle", "fused_weight_gradient_mlp_cuda", "fused_lamb","mkl",
+        "pynvml","syncbn",
+
+         "crc32c","propcache", "_csparsetools", "_numba_cuda_redirector","sentry_sdk", "prometheus_client","frozenlist", "multiprocess", "xxhash", "cython", "Cython",
+         "greenlet", "cffi", "threadpoolctl",
+    
+               "rapids_dask_dependency","mpi4py","spglib", "ase", "jax", "jaxlib","jaxtyping", "zstandard"
+    ],
+    "workflows": ["zmq","balsam","parsl",
+   
+                 "botocore", "boto3", "gitdb", "git", "dockerpycreds", "conda_build","aiohttp", "yarl", "aiosignal","anyio","sniffio"
+                 ],
+    "typing": ["attrs","typeguard",
+              
+              "typeshed_client","typing_extensions", "pydantic"
+              ],
+    "cli": ["click", "typer"],
+    "config": [
+        "jsonargparse",  "donfig","iniconfig","hydra","omegaconf"
+    ],
+    "interactive": [
+        "ipykernel", "pydev_ipython", "debugpy", "pydevconsole", "pydevd",
+        "pydevd_file_utils", "pydevd_tracing", "pydevd_plugins",
+        "_pydevd_frame_eval", "_pydev_runfiles", "_pydev_bundle",
+        "_pydevd_bundle", "pydevd_runfiles", "comm", "jupyter_core",
+        "jupyter_client", "tornado","stack_data","IPython","prompt_toolkit",
+        
+        "rich","colorama","tqdm","rlcompleter","sphinxcontrib"
+    ],
+    "parsing": [
+        "regex", "pyparsing", "astunparse", "docstring_parser", "markdown_it",
+        "shellingham", "linkify_it", "uc_micro", "mdurl","antlr4","asttokens","parso","jedi",
+        
+        "chardet", "charset_normalizer", "_ruamel_yaml", "jinja2","jsonpointer", "jsonpatch", "hjson","ruamel","_jsonnet","bson","optree"
+    ],
+    "utilities": [
+        "setuptools", "filelock", "markupsafe",
+       "psutil", "defusedxml", "jmespath",
+        "smmap",
+        "joblib", "ftplib",
+        "conda_package_handling", "libmambapy", "conda_libmamba_solver",
+        "conda_index", "conda_package_streaming", "anaconda_anon_usage",
+        "conda_content_trust", "distro", "archspec", "wheel", "appdirs",
+        "platformdirs", "namex", "venv",
+        "tabulate",
+        "cpuinfo","boltons","py",
+        "wcwidth","faker","executing", "packaging", "pygments","pure_eval"
+        ,"decorator","traitlets","monty","pip",
+        
+        "importlib_resources","etils","_virtualenv","flatbuffers","aiohappyeyeballs","backports","jaraco","kiwisolver","h11","pydot","_multiprocess","PIL","httpx", "httpcore"
+    ],
+    "stdlibs": [
+        "cmath", "contextvars", "runpy", "asyncio", "ipaddress", "dataclasses",
+        "zipimport", "_typing", "resource", "cProfile", "_lsprof", "pstats",
+        "profile", "colorsys", "_sqlite3", "sqlite3", "pydoc_data", "_strptime",
+        "_multibytecodec",
+        "_posixshmem", "_pyio",
+        "xmlrpc", "_statistics", "optparse", "compileall", "py_compile",
+        "modulefinder", "curses", "_curses","_distutils_hack","filecmp","pydoc",
+        "_uuid","wsgiref",
+
+        "zoneinfo", "_zoneinfo","python","readline", "netrc", "tty", "pty"
+    ],
+    "uncategorized": [
+        "pymatgen","__editable___neuralplexer_0_1_0_finder","django", 
+        "submit","_remote_module_non_scriptable","_moduleTNC","cryptography","electrolyte_fm"
+    ],
+    "testing": [
+      "pytest","unittest","hypothesis","nose","_pytest",
+
+      "pluggy"
+    ]
+}
