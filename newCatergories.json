@@ -7,7 +7,8 @@
         "wandb_graphql", "safetensors","onnxruntime","onnx","sklearn","lightning_fabric","lightning_utilities",
         "lightning","crystallm","huggingface_hub", 
         
-        "pyannote","datasets","smirk","amp_C","lightnings","ml_dtypes"
+        "pyannote","datasets","smirk","amp_C","lightnings","ml_dtypes",
+        "dragon","einops", "torch_geometric", "torch_cluster","flash_attn","smartredis"
     ],
     "io": [
       "json","gzip","zip","bz2","tarfile","zipfile","pickle","brotli",
@@ -32,7 +33,8 @@
          "crc32c","propcache", "_csparsetools", "_numba_cuda_redirector","sentry_sdk", "prometheus_client","frozenlist", "multiprocess", "xxhash", "cython", "Cython",
          "greenlet", "cffi", "threadpoolctl",
     
-               "rapids_dask_dependency","mpi4py","spglib", "ase", "jax", "jaxlib","jaxtyping", "zstandard"
+         "rapids_dask_dependency","mpi4py","spglib", "ase", "jax", "jaxlib","jaxtyping", "zstandard",
+         "capnp","numba","llvmlite","flash_attn_2_cuda"
     ],
     "workflows": ["zmq","balsam","parsl",
    
@@ -40,7 +42,7 @@
                  ],
     "typing": ["attrs","typeguard",
               
-              "typeshed_client","typing_extensions", "pydantic"
+              "typeshed_client","typing_extensions", "pydantic","pydantic_core","annotated_types"
               ],
     "cli": ["click", "typer"],
     "config": [
@@ -75,7 +77,8 @@
         "wcwidth","faker","executing", "packaging", "pygments","pure_eval"
         ,"decorator","traitlets","monty","pip",
         
-        "importlib_resources","etils","_virtualenv","flatbuffers","aiohappyeyeballs","backports","jaraco","kiwisolver","h11","pydot","_multiprocess","PIL","httpx", "httpcore"
+        "importlib_resources","etils","_virtualenv","flatbuffers","aiohappyeyeballs","backports","jaraco","kiwisolver","h11","pydot","_multiprocess","PIL","httpx", "httpcore",
+        "utilities", "gmpy2", "cftime"
     ],
     "stdlibs": [
         "cmath", "contextvars", "runpy", "asyncio", "ipaddress", "dataclasses",
@@ -91,7 +94,10 @@
     ],
     "uncategorized": [
         "pymatgen","__editable___neuralplexer_0_1_0_finder","django", 
-        "submit","_remote_module_non_scriptable","_moduleTNC","cryptography","electrolyte_fm"
+        "submit","_remote_module_non_scriptable","_moduleTNC","cryptography","electrolyte_fm",
+        "data_loader", "__editable___dlio_benchmark_2_0_0_finder",
+        
+        "sorter"
     ],
     "testing": [
       "pytest","unittest","hypothesis","nose","_pytest",
