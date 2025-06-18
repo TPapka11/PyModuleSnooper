@@ -125,12 +125,19 @@ def commonize_source(source):
    except:
       return ''
 
+parse_success = 0
+parse_fail = 0
+total = 0
 
 def parse_datafile(filename):
    try:
       data = json.load(open(filename))
+      parse_success += 1
+      total += 1
    except:
       print(f'failed to parse filename: {filename}')
+      parse_fail += 1
+      total += 1
       return {}
    output_data = {}
    output_data['hostname'] = data['hostname']
