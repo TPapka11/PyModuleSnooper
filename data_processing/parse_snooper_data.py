@@ -107,7 +107,7 @@ def main():
 
    print(f'Parse success: {parse_success}')
    print(f'Parse failed : {parse_fail}')
-   print(f'Total parsed : {total}')
+   print(f'Total: {total}')
 
 def commonize_source(source):
    try:
