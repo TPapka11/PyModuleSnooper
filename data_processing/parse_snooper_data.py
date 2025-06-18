@@ -105,6 +105,9 @@ def main():
 
    logger.info('total run time: %10.2f',time.time() - start)
 
+   print(f'Parse success: {parse_success}')
+   print(f'Parse failed : {parse_fail}')
+   print(f'Total parsed : {total}')
 
 def commonize_source(source):
    try:
@@ -130,6 +133,7 @@ parse_fail = 0
 total = 0
 
 def parse_datafile(filename):
+   global parse_success, parse_fail, total
    try:
       data = json.load(open(filename))
       parse_success += 1
@@ -269,3 +273,4 @@ def build_dataset(path,nprocs,years=[],months=[],days=[]):
 
 if __name__ == "__main__":
    main()
+
